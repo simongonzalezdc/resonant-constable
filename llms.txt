@@ -1,0 +1,13 @@
+# resonant-constable
+
+> Injection defense + contest for the ResonantOS ecosystem: the injection-by-construction doctrine ported to the browser-first extension/bridge architecture, a labeled corpus of known public attack classes on synthetic fixtures, and a stdlib-only reference checker (CLI + local service). Teaches a defense discipline; claims nothing about any deployed system's security.
+
+Contents:
+- [README.md](README.md): What it is, receipt banner, rules of engagement for contributing fixtures.
+- [docs/DOCTRINE.md](docs/DOCTRINE.md): The four patterns and their data-boundary alternatives, citing only merged public fixes.
+- [corpus/](corpus/): 27 labeled entries across 6 public attack classes (detect/pass/reject), coverage matrix, typed negatives.
+- [engine.py](engine.py): The checker — parse-as-data, detect-and-explain, deterministic.
+- [server.py](server.py): Local service, 127.0.0.1:4902, sibling hardening pattern.
+- [PROCEDURE.md](PROCEDURE.md) + [PROCEDURE-A5B-REPORT.md](PROCEDURE-A5B-REPORT.md) + [PROCEDURE-A5B-ROUND2.md](PROCEDURE-A5B-ROUND2.md): The two independent adversary passes and every fix they forced.
+
+Companion ecosystem: [resonant-gifts](https://github.com/simongonzalezdc/resonant-gifts) indexes the gift line.
